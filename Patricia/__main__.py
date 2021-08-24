@@ -76,41 +76,42 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` **INNEXIA** `your group super bot`
-`I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
+`ʜᴇʏ` ɪ ᴀᴍ *ᴩᴀᴛʀɪᴄɪᴀ* ᴀ ᴀɴɪᴍᴇᴅ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ,
+`ɪ ᴩʀᴏᴠɪᴅᴇ ᴏsᴍ ғᴇᴀᴛᴜʀᴇ ᴛʜᴀᴛ ᴀ ɢʀᴏᴜᴩ ᴏᴡɴᴇʀ ᴡɪʟʟ ʟᴏᴏᴋ ғᴏʀ ᴛʜᴇʀᴇ ɢʀᴏᴜᴩs, ᴄʜᴇᴄᴋ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅ ᴅᴇᴀᴛɪʟs ᴜsɪɴɢ `help📚` ʙᴜᴛᴛᴏɴ ᴏʀ ᴊᴜsᴛ sᴇɴᴅ /help !`
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="HELP", callback_data="start_help"),
+            text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ➕", url="http://t.me/Innexiabot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="SUPPORT", url=f"https://github.com/DarkCybers/innexia"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛℹ️", callback_data="innexia_"),
         InlineKeyboardButton(
-            text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://telegra.ph/Innexia-Vc-Player-08-19"
+            text="ʜᴇʟᴩ📚", callback_data="start_help"
         ),
     ],
     [
-        InlineKeyboardButton(text="📜 Aʙᴏᴜᴛ", callback_data="innexia_"),
-        InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ 👮", callback_data="innexia_basichelp"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/Innexiabot?startgroup=true"),
+        InlineKeyboardButton(text="⚙️ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ⚙️", callback_data="config_help" ),
     ],
 ]
 
 
 HELP_STRINGS = """
-**SETTINGS**
-`Click on the buttons below to get documentation about specific modules..`)"""
+ʜᴇʏ ᴛʜᴇʀᴇ! ᴍʏ ɴᴀᴍᴇ ɪs *ᴩᴀᴛʀɪᴄɪᴀ*.,
+ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs!,
+ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ :,
+- /start: sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ,
+- /help: ᴘᴍ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.,
+- /settings:,
+ • ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.,
+ • ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ's sᴇᴛᴛɪɴɢs.,
+ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄ ᴍᴏᴅᴜʟᴇs!."""
 
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @SiderzDonate's 💕"""
+ @piroXpower's 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -368,20 +369,20 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="CREDITS", callback_data="credit_help"
+                            text="ᴄʀᴇᴅɪᴛs", callback_data="credit_help"
                         ),
                         InlineKeyboardButton(
-                            text="SUPPORT", callback_data="support_help"
+                            text="sᴜᴩᴩᴏʀᴛ", callback_data="support_help"
                         ),
                     ],[
                         InlineKeyboardButton(
-                            text="ADMIN HELP", callback_data="admin_help"
+                            text="ᴀᴅᴍɪɴ ʜᴇʟᴩ", callback_data="admin_help"
                         ),
                         InlineKeyboardButton(
-                            text="USERHELP", callback_data="user_help"
+                            text="ᴜsᴇʀ ʜᴇʟᴩ", callback_data="user_help"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
+                    [InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="innexia_back")],
                 ]
             ),
         )
@@ -405,7 +406,7 @@ def innexia_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="innexia_")]]
+                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="innexia_")]]
             ),
         )
     elif query.data == "admin_help":
@@ -422,7 +423,7 @@ def innexia_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="innexia_")]]
+                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="innexia_")]]
             ),
         )
     elif query.data == "support_help":
@@ -441,7 +442,7 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Cʜᴀᴛ", url="https://t.me/frndsXworld"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="innexia_"),
+                    InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="innexia_"),
                  
                  ]
                 ]
@@ -463,7 +464,7 @@ def innexia_about_callback(update, context):
                     InlineKeyboardButton(text="Tᴀɴᴀᴊɪ", url="https://t.me/XD_PERSON"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="innexia_"),
+                    InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="innexia_"),
                  
                  ]
                 ]
@@ -479,7 +480,7 @@ def innexia_about_callback(update, context):
                 [
                  [
                    InlineKeyboardButton(
-                            text="Back", callback_data="innexia_back"
+                            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ", url="http://t.me/PATRICIA_ROBOT?startgroup=true"
                             ),
                  ],
                  [
@@ -493,12 +494,32 @@ def innexia_about_callback(update, context):
     elif query.data == "config_first":
         query.message.edit_text(
             text=f"*ʜᴇʏ ᴛʜᴇʀᴇ, ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ  ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ᴛᴜᴛᴏʀɪᴀʟ.*"
-            f"\n\nᴛʜᴇ ғɪʀsᴛ ᴛʜɪɴɢ ᴛᴏ ᴅᴏ ɪs ᴛᴏ ᴀᴅᴅ *ᴩᴀᴛʀɪᴄɪᴀ* ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ! ғᴏʀ ᴅᴏɪɴɢ ᴛʜᴀᴛ, ᴘʀᴇss ᴛʜᴇ ᴜɴᴅᴇʀ ʙᴜᴛᴛᴏɴ ᴀɴᴅ sᴇʟᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ.",
+            f"\n\nɴᴏᴡ ғᴏʀ ʟᴇᴛ ᴍᴇ ᴡᴏʀᴋ ᴄᴏʀʀᴇᴄᴛʟʏ, ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴏғ ʏᴏᴜʀ ɢʀᴏᴜᴘ!"
+            f"\n ᴛᴏ ᴅᴏ ᴛʜᴀᴛ, ғᴏʟʟᴏᴡ ᴛʜɪs ᴇᴀsʏ sᴛᴇᴘs:"
+            f"\n▫️ ɢᴏ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ"
+            f"\n▫️ ᴘʀᴇss ᴛʜᴇ ɢʀᴏᴜᴘ's ɴᴀᴍᴇ"
+            f"\n▫️ ᴘʀᴇss ᴍᴏᴅɪғʏ"
+            f"\n▫️ ᴘʀᴇss ᴏɴ ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀ"
+            f"\n▫️ ᴘʀᴇss ᴀᴅᴅ ᴀᴅᴍɪɴɪsᴛʀᴀᴛᴏʀ"
+            f"\n▫️ ᴘʀᴇss ᴛʜᴇ ᴍᴀɢɴɪғʏɪɴɢ ɢʟᴀss"
+            f"\n▫️ sᴇᴀʀᴄʜ @PATRICIA_ROBOT"
+            f"\n▫️ ᴄᴏɴғɪʀᴍ",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="config_second")]]
+                [[InlineKeyboardButton(text="ɴᴇxᴛ", callback_data="config_second")]]
             ),
         )
+    elif query.data == "config_second":
+        query.message.edit_text(
+            text=f"*ᴇxᴄᴇʟʟᴇɴᴛ!*"
+            f"\n\nɴᴏᴡ ᴛʜᴇ ʙᴏᴛ ɪs ʀᴇᴀᴅʏ ᴛᴏ ᴜsᴇ!"
+            f"\n\n*Note:* ɪɴ ᴄᴏɴᴄʟᴜsɪᴏɴ ɪ ᴡᴏᴜʟᴅ ᴘᴏɪɴᴛ ᴏᴜᴛ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ /reload ᴛʜᴀᴛ ᴡɪʟʟ ᴜᴘᴅᴀᴛᴇ ᴛʜᴇ ɢʀᴏᴜᴘ's ᴀᴅᴍɪɴ ʟɪsᴛ."
+            f"\nғᴏʀ ᴇxᴀᴍᴘʟᴇ ɪғ ʏᴏᴜ ᴀᴅᴅ ᴏʀ ʀᴇᴍᴏᴠᴇ ᴀɴ ᴀᴅᴍɪɴ, ʀᴇᴍᴇᴍʙᴇʀ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏʀ ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ɴᴏᴛ ɴᴏᴛɪᴄᴇ ᴛʜɪs ᴄʜᴀɴɢᴇ ғᴏʀ 4-5min.",
+            parse_mode=ParseMode.HTML,
+            reply_markup=InlineKeyboardMarkup(
+                [[InlineKeyboardButton(text="ɴᴇxᴛ", callback_data="start_help")]]
+            ),
+        ) 
     
         
         
@@ -508,7 +529,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *Innexia*
-                 \nHere is the [🔥Source Code🔥](https://github.com/DarkCybers/innexiaBot) .""",
+                 \nHere is the [🔥Source Code🔥](https://github.com/TEAM-PATRICIA) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
