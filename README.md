@@ -31,7 +31,7 @@ This is because markdown parsing is done by iterating through a dict, which is o
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
 The preferred version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
-This file should be placed in your `LaylaRobot` folder, alongside the `__main__.py` file. 
+This file should be placed in your `Patricia` folder, alongside the `__main__.py` file. 
 This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of 
 your other settings.
 
@@ -180,7 +180,7 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/HEROGAMERS1)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/TGBOTSXD)
 ## How to setup on Heroku 
 For starters click on this button 
 </details>  
