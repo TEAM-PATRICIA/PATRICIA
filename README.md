@@ -16,8 +16,8 @@ A modular Telegram Python bot running on python3 with a sqlalchemy database.
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fxdipesh%2FLaylaRobot&template=https%3A%2F%2Fgithub.com%2Fxdipesh%2FLaylaRobot)
 
 
- </details>  
-# <details>
+ 
+<HOST ON VPS>
   
 
  ## Setting up the bot (Read this before trying to use!):
@@ -183,7 +183,7 @@ Note: the restart bat requires that User account control be disabled.
 For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/TGBOTSXD)
 ## How to setup on Heroku 
 For starters click on this button 
-</details>  
+</HOST ON VPS>  
 
 ## Credits
 
