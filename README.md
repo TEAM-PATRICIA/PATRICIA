@@ -6,6 +6,7 @@
 <a href="https://telegram.me/tGbotsXD"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 <a href="https://t.me/TGBOTZXD"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+</details>
 
 [![Deploy](https://telegra.ph/file/95a4e9bf8860446c7d150.jpg)](https://heroku.com/deploy?template=https://github.com/QueenArzoo/LaylaRobot.git)
 # 𝙈𝙄𝙎𝙎 𝙆𝙍𝙄𝙎𝙏𝙄𝙉𝘼
