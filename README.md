@@ -1,4 +1,6 @@
 # 𝐏𝐀𝐓𝐑𝐈𝐂𝐈𝐀 𝐁𝐎𝐓
+## A modular Telegram Python bot running on python3 with a sqlalchemy database.
+
  
 <a href="https://telegram.me/tGbotsXD"><img src="https://img.shields.io/badge/Join-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram">
 </a><a href="https://t.me/TGBOTZXD"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
@@ -13,7 +15,6 @@
 
 
 
-A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
 ## HOW TO DEPLOY
 
