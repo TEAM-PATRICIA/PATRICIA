@@ -183,7 +183,10 @@ Make sure to edit the start and restart bats to your needs.
 Note: the restart bat requires that User account control be disabled.
 
 For queries or any issues regarding the bot please open an issue ticket or visit us at [Support](https://t.m/TGBOTSXD)
+
 ## How to setup on Heroku 
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FTEAM-PATRICIA%2FPatricia&template=https%3A%2F%2Fgithub.com%2FTEAM-PATRICIA%2FPatricia)
+
 For starters click on this button 
 
 </DETAILS> 
