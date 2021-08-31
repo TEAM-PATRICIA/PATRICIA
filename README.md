@@ -186,9 +186,11 @@ For queries or any issues regarding the bot please open an issue ticket or visit
 ## How to setup on Heroku 
 For starters click on this button 
 
-</DETAILS>  
+</DETAILS> 
+ 
+<details>
 
-## Credits
+  <summary> • 𝐂𝐑𝐄𝐃𝐈𝐓 • </summary>
+<h2 align="center"> <a href="https://t.me/TGbotsCREDIT">BOT CREDIT</a></h2>
 
-
-[TGbotzXD](t.me/TGbotzXD) 
+</details>
